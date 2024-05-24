@@ -10,8 +10,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000; /* Changed background color to black */
-            color: #fff; /* Changed text color to white for better readability */
+            background-color: #000;
+            color: #fff;
         }
         header {
             background-color: #333;
@@ -49,31 +49,7 @@
             bottom: 0;
             width: 100%;
         }
-        .videos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .video {
-            flex: 1 1 30%;
-            margin: 10px;
-        }
-        @media (max-width: 768px) {
-            .video {
-                flex: 1 1 45%;
-            }
-        }
-        @media (max-width: 480px) {
-            .video {
-                flex: 1 1 100%;
-            }
-        }
     </style>
-    <script>
-        function openVideo(url) {
-            window.open(url, '_blank');
-        }
-    </script>
 </head>
 <body>
     <header>
@@ -84,7 +60,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#videos">Videos</a>
+        <a href="videos.html">Videos</a>
         <a href="#contact">Contact</a>
     </nav>
     <main>
@@ -102,64 +78,13 @@ Feel free to use this for your website or any other professional context!</p>
             <h2>Our Services</h2>
             <p>Details about the services offered by The Redliner.</p>
         </section>
-        <section id="videos">
-            <h2>Our Videos</h2>
-            <div class="videos">
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/toatpoaaOvM?si=69kX9XzK1bhj9VFB')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/toatpoaaOvM?si=69kX9XzK1bhj9VFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/9pJVpI6C18k?si=VrR-yHr9MPWUbQaD')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/9pJVpI6C18k?si=VrR-yHr9MPWUbQaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/8s_rgwXt4iY?si=eQMHEVtk2ezM1qhC')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/8s_rgwXt4iY?si=eQMHEVtk2ezM1qhC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/lz1NumlwluQ?si=1IKA0nU_TcjHmTiD')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/lz1NumlwluQ?si=1IKA0nU_TcjHmTiD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/oJe-vpRqJxo?si=npfxdyOGYtDEMdDv')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/oJe-vpRqJxo?si=npfxdyOGYtDEMdDv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/6I5WE0K00oA?si=C-GX3Jt5_Y3oULpn')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/6I5WE0K00oA?si=C-GX3Jt5_Y3oULpn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/tLKnoljeQtU?si=qKuMQAu1L6rlOm_y')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/tLKnoljeQtU?si=qKuMQAu1L6rlOm_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/sB3HQ95_6Do?si=0ck-dKXw-mkw1m6x')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/sB3HQ95_6Do?si=0ck-dKXw-mkw1m6x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-                <div class="video">
-                    <a href="javascript:void(0)" onclick="openVideo('https://www.youtube.com/embed/NXXFJeZMA9Y?si=47gsfy8Q13PlsUkp')">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NXXFJeZMA9Y?si=47gsfy8Q13PlsUkp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </a>
-                </div>
-            </div>
-            <p>Visit our YouTube channel for more videos: <a href="https://www.youtube.com/@redliner_madhu" target="_blank">The Redliner YouTube Channel</a></p>
-        </section>
         <section id="contact">
             <h2>Contact Us</h2>
             <p>How to get in touch with The Redliner.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 The Redliner. All rights
+        <p>&copy; 2024 The Redliner. All rights reserved.</p>
     </footer>
 </body>
 </html>
